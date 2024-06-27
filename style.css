@@ -1,36 +1,51 @@
 .profile-image
 {
-    width: 12em;
+    width: 16em;
     height: 12em:
-    float: right;
+    text-align: center;
     border-radius: 12em;
 }
 
 body, p, li {
     font-family: Arial, sans-serif;
+    font-size: 1.1em;
 }
 
 body
 {
     background-color: #f9f9de;
+    display:block;
 }
 
 header
 {
     background-color: #ecf9de;
-    width:80%;
-    padding: 100px 0;
+    padding: 10em 2em 2em;
+    display:flex;
+}
+section
+{
+    padding: 0.2em 3em 0;
 }
 
 a:visited
 {
-    color: #bb80e5;
+    color: #a52c77;
+}
+a
+{
+    color: #ea3f6f;
 }
 
 nav
 {
-    padding: 10px 0;
     position: fixed;
+    background-color: #3a4745;
+    width: 99%;
+    border-radius: 2em;
+    padding: 0.2em 0 0.2em;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 
@@ -59,23 +74,23 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
     header {
-        padding: 10px 0; /* Reduz o espaço acima e abaixo do header */
+        padding: 10px 0;
     }
 
     #nav {
-        padding: 5px 0; /* Reduz o espaço interno dentro do nav */
+        padding: 5px 0;
     }
 
     #nav a {
-        padding: 8px 12px; /* Reduz o tamanho do padding dos links */
+        padding: 8px 12px;
     }
 
     header h2 {
-        margin-top: 30px; /* Reduz o espaço acima do h2 */
-        font-size: 24px; /* Reduz o tamanho da fonte do h2 */
+        margin-top: 30px;
+        font-size: 24px;
     }
 
     main {
-        padding: 10px; /* Reduz o espaçamento interno do conteúdo principal */
+        padding: 10px;
     }
 }
