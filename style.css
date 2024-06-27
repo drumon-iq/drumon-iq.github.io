@@ -1,0 +1,81 @@
+.profile-image
+{
+    width: 12em;
+    height: 12em:
+    float: right;
+    border-radius: 12em;
+}
+
+body, p, li {
+    font-family: Arial, sans-serif;
+}
+
+body
+{
+    background-color: #f9f9de;
+}
+
+header
+{
+    background-color: #ecf9de;
+    width:80%;
+    padding: 100px 0;
+}
+
+a:visited
+{
+    color: #bb80e5;
+}
+
+nav
+{
+    padding: 10px 0;
+    position: fixed;
+}
+
+
+h1
+{
+    font-size: 2em;
+}
+h2
+{
+    font-size: 1.8em;
+}
+h3
+{
+    font-size: 1.6em;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0; /* Reduz o espaço acima e abaixo do header */
+    }
+
+    #nav {
+        padding: 5px 0; /* Reduz o espaço interno dentro do nav */
+    }
+
+    #nav a {
+        padding: 8px 12px; /* Reduz o tamanho do padding dos links */
+    }
+
+    header h2 {
+        margin-top: 30px; /* Reduz o espaço acima do h2 */
+        font-size: 24px; /* Reduz o tamanho da fonte do h2 */
+    }
+
+    main {
+        padding: 10px; /* Reduz o espaçamento interno do conteúdo principal */
+    }
+}
